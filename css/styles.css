@@ -1,0 +1,5 @@
+#wrapper {
+  max-width: 500px;
+  border: 2px inset gray;
+  padding: 5px;
+}

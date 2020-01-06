@@ -42,5 +42,15 @@ var repository = [
     attackSpecial: "Psychic"
   }
 ];
-console.log(repository[1]);
-console.log(repository[5]);
+
+document.write("<h1>Pokedex</h1>");
+
+for (var i = 0; i < repository.length; i++) {
+  document.write(
+    repository[i].name + " height: " + repository[i].height + "<br />"
+  );
+}
+
+if (respository[i].height >= 2) {
+  document.write("Wow, that's big!");
+}
